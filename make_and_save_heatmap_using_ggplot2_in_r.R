@@ -1,4 +1,5 @@
 # Sample data download
+# https://github.com/coldbrew0806/R_tips
 # https://github.com/coldbrew0806/R_tips/blob/master/test.csv
 
 # if you don't have ggplot2, install.packages("ggplot2")
