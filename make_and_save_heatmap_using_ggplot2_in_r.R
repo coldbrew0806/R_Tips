@@ -2,7 +2,7 @@
 library("ggplot2")
 
 # csvfile path ( \ => / ) 
-fpath = "C:/Users/geocom/Downloads/test.csv"
+fpath = "C:/Users/coldbrew/Downloads/test.csv"
 
 #read csvfile
 dat = read.csv(fpath)
@@ -54,9 +54,9 @@ a<- a+ theme(axis.text.y = element_text(color = "black",size = 15, face = "bold"
 ########make heatmap plot (geom_tile) end########
 
 ########save ggplot - default
-opath_png1 = paste0("C:/Users/geocom/Downloads/test-default", ".png")
+opath_png1 = paste0("C:/Users/coldbrew/Downloads/test-default", ".png")
 ggsave(opath_png1)
 
 ########save ggplot and set image size - upgrade version
-opath_png2 = paste0("C:/Users/geocom/Downloads/test-setsize", ".png")
+opath_png2 = paste0("C:/Users/coldbrew/Downloads/test-setsize", ".png")
 ggsave(opath_png2, width =30, height = 20, units = "cm")
